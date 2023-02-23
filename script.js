@@ -23,7 +23,7 @@ function init() {
       }
     }
     //jQUERY
-    // $("#key").text(string);
+    $("#key").text(string);
     keyDisplay.textContent = string;
   }
   //Add a click listener to the button then call addRandomString();
