@@ -28,9 +28,9 @@ function init() {
   }
   //Add a click listener to the button then call addRandomString();
   //jQUERY
-  // $("#generateKey").on("click", function() {
-  //   addRandomStrings();
-  // });
+  $("#generateKey").on("click", function() {
+     addRandomStrings();
+   });
   button.addEventListener("click", function() {
     addRandomStrings();
   });
